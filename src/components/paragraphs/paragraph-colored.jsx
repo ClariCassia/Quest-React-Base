@@ -1,9 +1,7 @@
 const ParagraphColored = (props) => {
-	return (
-		<>
+	return (		
 			<p className="paragraphColored" style={{ color: props.color }}>
-				{props.paragraph.toUpperCase()}</p>
-		</>
+				{props.paragraph.toUpperCase()}</p>		
 	)
 }
 export default ParagraphColored
