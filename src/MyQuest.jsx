@@ -1,6 +1,6 @@
 import './MyQuest.css'
-import ParagraphColored from './components/paragraphs/paragraph-colored';
-import Button from './components/buttons/button';
+import ParagraphColored from './components/StyledText/index.jsx';
+import Button from './components/AlertButton/index.jsx';
 
 function MyQuest() {
   return (
